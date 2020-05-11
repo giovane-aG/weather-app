@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "O Clima?",
+    "slug": "minimalist-weather-app",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "",
+      "resizeMode": "contain",
+      "backgroundColor": "#fafafa"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.giovane.tasklist"
+    },
+    "android": {
+      "package": "com.giovane.oclima",
+      "versionCode": 1
+    }
+  }
+}
